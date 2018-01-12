@@ -1,125 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width initial-scale=1'>
-  <meta name='mobile-web-app-capable' content='yes'>
-  <link rel='stylesheet' href='css/bootstrap.min.css'>
-  <link rel='stylesheet' href='css/estilos.css'>
-  <script src='js/bootstrap.min.js'></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Paginas con distintos Frameworks</title>
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<meta charset="utf-8">
+
 </head>
+<body>
+<div class="container" role="main">
+	<div class="c1">
+		<h1>Paginas con distintos Frameworks</h1>
+	</div>
+	<div class="c3">
+		<h2>Bootstrap</h2>
+		<a href="bootstrap/bootstrap.html">Pagina hecha con Bootstrap</a>
+	</div>
+	<div class="c4">
+		<h2>Foundation</h2>
+		<a href="foundation/foundation.html">Pagina hecha con Foundation</a>
+	</div>
+	<div class="c5">
+		<h2>Materialize</h2>
+		
+		<a href="materialize/materialize.html">Pagina hecha con Materialize</a>
+	</div>
+</div>
 
-<body class='cinema-body'>
-  <header>
-    <abbr><img class='jumbotron-img' src='img/logo.png'/></abbr>
-    <nav class='navbar navbar-inverse navbar-fixed-top affix-top'>
-      <div class="container-fluid">
-        <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center'>
-          <div class='redes-sociales navbar-right'>
-            <img class='img-rounded img-social' src='img/fb.png' />
-            <img class='img-rounded img-social' src='img/ig.png' />
-            <img class='img-rounded img-social' src='img/tt.png' />
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <nav class='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
-    <ul class="nav navbar-nav row-centered">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Artistas</a></li>
-      <li><a href="#">grupos</a></li>
-      <li><a href="#">Top 10</a></li>
-      <li><a href="#">Letras</a></li>
-      <li><a href="#">acordes</a></li>
-    </ul>
-  </nav>
-  <div class='row'>
-    <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12 left-column  titulo-cartelera'>
-      <header class='titulo-text text-capitalize text-center'>NOTICIAS</header>
-    </div>
-    <div class='col-lg-4 col-md-4 titulo-cartelera right-column'>
-      <header class='titulo-text text-capitalize text-center'>Buscador</header>
-    </div>
-  </div>
-
-  <div class='row'>
-    <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
-      <div class='row movies-row left-column '>
-        <header class='titulo-text text-capitalize text-left'>TRIBUTO A VICENTE FERNANDEZ</header>
-        <div class='col-xs-1 col-sm-1 col-md-4 col-lg-4 text-left'>
-          <p>Vicente Fernández Gómez, (Huentitán El Alto, Guadalajara, Jalisco, 17 de febrero de 1940),1​ también conocido como Chente, es un cantante retirado de música ranchera, empresario, productor discográfico y actor mexicano padre del también cantante
-            mexicano Alejandro Fernández, es considerado un símbolo de la cultura hispanoamericana. Su trabajo le ha valido dos premios Grammy, ocho premios Grammy Latinos, catorce premios Lo Nuestro y una estrella en el paseo de la fama de Hollywood.
-            En abril de 2010 alcanzó la cifra de 75 millones de copias vendidos en todo el mundo.
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='row movies-row'>
-  <div class='col-lg-8 col-md-6 right-column'>
-      <header class='titulo-text text-capitalize text-left'>TRIBUTO A KALETH MORALES</header>
-      <div class='row'>
-        <div class='col-lg-6 col-md-2 right-column'>
-          <img class='img-movies' src='img/movie_4.jpg' />
-        </div>
-        <div class='col-lg-4 col-md-4 text-left'>
-          <p>Kaleth Miguel Morales Troya (Valledupar; 9 de junio de 1983 – Cartagena; 24 de agosto de 2005), más conocido como Kaleth Morales y apodado El Rey de la Nueva Ola, fue un cantante y compositor colombiano de música vallenata que residía en la
-            ciudad de Cartagena, donde comenzó sus estudios en medicina en la Universidad del Sinú.
-            <br> Su vida artística comenzó siguiendo los pasos de su padre Miguel Morales, quien fue integrante de la agrupación vallenata Los Diablitos junto a Omar Geles. A los 12 años de edad, su padre Miguel Morales lo invitó a grabar un tema a dúo
-            titulado Tu forma de amar. A la edad de 13 años
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class='row'>
-    <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 titulo-cartelera'>
-      <header class='titulo-text text-capitalize text-center'>regístrate</header>
-    </div>
-  </div>
-  <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 movies-row-last'>
-    <form role='Form'>
-      <fieldset>
-        <div class='form-group text-center'>
-          <legend class='user_data'>Datos personales</legend>
-          <input type='text' name='nombre' id='nombre' placeholder='Nombre Completo' class='form-control input-element' />
-          <input type='text' name='email' id='email' placeholder='Correo eléctronico' class='form-control input-element' />
-          <input type='text' name='telefono' id='telefono' placeholder='Télefono' class='form-control input-element' />
-          <input type='text' name='ciudad' id='ciudad' placeholder='Ciudad' class='form-control input-element' />
-        </div>
-        <div class='form-group text-center'>
-          <legend class='user_data'>Elige tus generos favoritos</legend>
-          <input type='checkbox' name='ranchera' id='ranchera' />
-          <label for='ranchera' class='label-class'>Ranchera</label>
-          <input type='checkbox' name='merengue' id='merengue' />
-          <label for='merengue' class='label-class'>merengue</label>
-          <input type='checkbox' name='Vallenato' id='Vallenato' />
-          <label for='Vallenato' class='label-class'>Vallenato</label>
-          <input type='checkbox' name='Rock' id='Rock' />
-          <label for='Rock' class='label-class'>Rock</label>
-        </div>
-        <div class='text-center'>
-          <legend class='user_data'>¿Desea recibir correo de nuestro sitio?</legend>
-          <input type='radio' name='si' id='si' />
-          <label for='si' class='label-class'>Si</label>
-          <input type='radio' name='no' id='no' />
-          <label for='no' class='label-class'>No</label>
-        </div>
-        <div class='text-center'>
-          <button type='button' class='btn btn-primary btn-save form-control'>Guardar</button>
-        </div>
-      </fieldset>
-    </form>
-  </div>
-  </div>
-  </div>
 </body>
-
 </html>
