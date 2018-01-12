@@ -1,221 +1,78 @@
-.cinema-body {
-  background: url(../img/fondo.jpg);
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+body {
+	font-family: Indie Flower;
+	background: url(../img/3132.jpg);
 }
 
-.navbar-inverse {
-  background-color: rgba(8, 45, 94, 0.95);
-  border: none;
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
-.logo-img {
-  width: 100px;
+.container div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
 }
 
-.container-fluid {
-  margin-top: 73px;
- 
+.c1 {
+	color: black;
+	background-color: #E6EBE0;
 }
 
-a{
-  display:block;  
-  text-align:center;
-  width:200px;
-  text-decoration:none;
+.c2 {
+	color: black;
+	background-color: #F4F1BB;
 }
 
-p {
-  
-  border-radius: 10px;
-  margin-bottom: 0px;
-  color:rgb(0,0,0);
+.c3 {
+	color: black;
+	background-color: #9BC1BC;
 }
 
-.jumbotron-img {
-  width: 220px;
-  margin-top: 20px;
+.c4 {
+	color: black;
+	background-color: #36C9C6;
 }
 
-.jumbotron-text {
-  font-size: 16px;
-  margin-top: 20px;
-  color: #FFFFFF;
+.c5 {
+	color: white;
+	background-color: #ED6A5A;
 }
 
-.redes-sociales {
-  margin-top: 30px;
+.container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
 }
 
-.img-social {
-  width: 40px;
-  height: 40px;
+.c1, .c2, .c3, .c4, .c5 {
+	width: 100%;
 }
 
-.img-movies {
-  height: 260px;
-  padding: 6px;
-  margin-top: 22px;
+@media (min-width: 600px) {
+	.c2, .c3, .c4, .c5 {
+		width: 50%;
+	}
 }
 
-.movie-title {
-  color: #FFFFFF;
-}
+@media (min-width: 800px) {
+	.c1 {
+		width: 100%;
+	}
 
-.welcome-title {
-  color: #FFFFFF;
-  margin-right: 10px;
-}
+	.c2 {
+		width: 100%;
+	}
 
-.titulo-cartelera {
-  min-height: 35px;
-  background-color: rgba(8, 45, 94, 0.95);
-}
+	.c3, .c4, .c5 {
+		width: 33.33%;
+	}
 
-.titulo-text {
-  font-size: 18px;
-  font-weight: bolder;
-  color:rgb(0,0,0);
-  padding: 10px;
-}
-
-.movies-row {
-  color:rgb(0,0,0);
-  min-height: 380px;;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.movies-row-last {
-  background: rgba(0, 0, 0, 0.8);
-  min-height: 425px;
-  padding-left: 15px;
-  padding-right: 15px;
-
-}
-
-.movies-column {
-  margin-top: 5px;
-  min-height: 330px;
-  border: 1px dashed #FFFFFF;
-  color:rgb(0,0,0);
-}
-.left-column {
-  border-right: 1px dashed #FFFFFF;
-}
-
-.row-centered {
-  text-align:center;
-}
-
-.services-text {
-  color: #FFFFFF;
-  margin-top: 13px;
-}
-
-.user_data {
-  margin-top: 10px;
-  color: #FFFFFF;
-  font-size: 18px;
-}
-
-.input-element {
-  width: 100%;
-  height: 28px;
-  padding: 10px;
-  color: #FFFFFF;
-  background-color: rgba(255,255,255,0.4);
-  border-radius: 4px;
-  border: none;
-  margin-top: 5px;
-}
-
-.btn-save {
-  width: 40%;
-  background-color: rgba(8, 45, 94, 0.95);
-  color: #FFFFFF;
-}
-
-.label-class {
-  color: #FFFFFF;
-  font-size: 13px;
-  margin-right: 10px;
-}
-
-@media (max-width: 770px) {
-  h2 {
-    font-size: 22px;
-  }
-
-  .titulo-text {
-    font-size: 15px;
-  }
-
-  .right-column {
-    display: none;
-  }
-
-  .movies-row {
-    padding-left: 0px;
-    padding-right: 0px;
-    min-height: 400px;
-  }
-
-  .container-fluid{
-    margin-top: 60px;
-  }
-
-  .movies-column {
-    min-height: 230px;
-  }
-
-  .jumbotron {
-    min-height: 380px;
-  }
-
-  .jumbotron-img {
-    width: 150px;
-    margin-top: 20px;
-  }
-
-  .img-movies {
-    height: 133px;
-    padding: 6px;
-    margin-top: 22px;
-  }
-}
-#custom-search-input{
-    padding: 3px;
-    border: solid 1px #E4E4E4;
-    border-radius: 6px;
-    background-color: #fff;
-}
-
-#custom-search-input input{
-    border: 0;
-    box-shadow: none;
-}
-
-#custom-search-input button{
-    margin: 2px 0 0 0;
-    background: none;
-    box-shadow: none;
-    border: 0;
-    color: #666666;
-    padding: 0 8px 0 10px;
-    border-left: solid 1px #ccc;
-}
-
-#custom-search-input button:hover{
-    border: 0;
-    box-shadow: none;
-    border-left: solid 1px #ccc;
-}
-
-#custom-search-input .glyphicon-search{
-    font-size: 23px;
+	.container {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
