@@ -1,0 +1,16 @@
+.logo-img{
+  width: 30%;
+}
+
+img{
+  max-height: 129px;
+}
+.row{
+	background: lightblue;
+}
+
+body{
+	background: url(../img/cartelera.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
