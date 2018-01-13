@@ -18,15 +18,14 @@ div[class*="bloque"]{
   min-height: 17rem;
 }
 .logo{
-  width: 100px;
-  height: 80px;
+  width: 30%;
+  height: 30%;
   margin-top: 0.5rem;
   float: left;
 }
 .contenedor-noticias{
-  margin-top: 1rem;
-  min-height: 50rem;
-  padding: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 .responsive-img{
   border: 0.6rem solid #ff8f00;
